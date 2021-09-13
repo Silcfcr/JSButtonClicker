@@ -11,7 +11,7 @@
     <div class="flex-container">
         <div class="nav">
             <h1>Dojonary</h1>
-            <button onmouseout="out(this)" onmouseover="over(this)" class="btn" onclick="login(this)">Login</button>
+            <button id="login-btn"class="btn">Login</button>
             <input type="search" name="Search" id="search" placeholder="Search here...">
             <!-- <input type="button" value="Login" onclick="login(this)""> -->
         </div>
@@ -25,7 +25,7 @@
                         <p>noun</p>
                         <p>Plural: <em>ninjas</em></p>
                         <!-- <input type="button" value="13 likes"> -->
-                        <button onmouseout="out(this)" onmouseover="over(this)" onclick="addOne(this)" class="btn">13 likes</button>
+                        <button class="btn" id="like-btn">13 likes</button>
                     </div>
                     <div class="entry-right">
                         <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
@@ -38,7 +38,7 @@
                         <p>noun</p>
                         <p>Plural: <em>ninjas</em></p>
                         <!-- <input type="button" value="37 likes"> -->
-                        <button onmouseout="out(this)" onmouseover="over(this)" onclick="addOne2(this)" class="btn">37 Likes</button>
+                        <button class="btn" id="like-btn">37 Likes</button>
                     </div>
                     <div class="entry-right">
                         <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
@@ -51,7 +51,7 @@
                 <div class="entry-col-right">
                     <p> Dojonary is defined by YOU</p>
                     <!-- <input type="button" value="Add Definition"> -->
-                    <button onmouseout="out(this)" onmouseover="over(this)" onclick="remove(this)" class="btn">Add Definition</button>
+                    <button id="def-btn">Add Definition</button>
                 </div>
             </div>
 
